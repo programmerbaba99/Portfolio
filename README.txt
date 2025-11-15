@@ -1,11 +1,43 @@
-Name = "Muhammad Awais Asif"
-Group = "24_WEBDEV-SS-U_7-30"
+Personal Portfolio Website
 
-Web-Page Detail = "I have created a web page of the brand name "Sialvi Tea Stall and cafe" situated near Brands road , The basic structure includes: { header, banner, about, menu, services, footer }. I have used Four colors { Black, white, f8f8f8, bb644f }. The fonts used in the website are { 'Fugaz One', 'Josefin Sans' }"
+Student Name: Muhammad Awais Asif
+Student Id: 510212
+Course: Website Development
+Instructor: Umer Sajid
 
-Websites = 
-{  fontawesome.com: "for icons download";
-  pixabay.com: "for image download";
-  fonts.google.com: "for fonts";
-  favicon.io: "for favicon";
-}
+Project Summary
+
+This project is a portfolio website to show case about my details (personal, skills, Eductaion)
+
+Design Reference files
+
+Figma Design
+Project Documentation
+
+Technologies used
+HTML
+CSS
+Tailwind CSS 
+
+Color Palette and typography
+
+  /* Color Palette */
+  --color-primary: #111827;
+  --color-secondary: #3b82f6;
+  --color-accent: #fff;
+  /* Typography Scale */
+  --font-main: "Inter", sans-serif;
+  --h1-size: 2.5rem;
+  --h2-size: 2rem;
+  --h3-size: 1.5rem;
+  --p-size: 1rem;
+
+  Project structure
+
+  Assets assets/Icons assets/images assets/logo
+  node module
+  src 
+  src src/index.html src/input.css src/output.css src/style.css
+  package-kock.Json
+  package.Json
+  Readme.txt
