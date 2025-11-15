@@ -12,7 +12,7 @@ This project is a portfolio website to show case about my details (personal, ski
 Design Reference files
 
 Figma Design
-Project Documentation
+Project Documentation https://docs.google.com/document/d/1cwb34LYXi_hUVFu3tKupD-3vp9TTzqQcrBTDpOwiaHQ/edit?usp=sharing
 
 Technologies used
 HTML
