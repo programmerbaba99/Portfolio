@@ -32,21 +32,22 @@ This project is a portfolio website to show case about my details (personal, ski
 -   --font-main: "Inter", sans-serif;
 
 
-  Project structure
+# Project structure
+    personal-portfolio
+    ├── assets
+    │   ├── Icons
+    │   ├── images
+    │   │   └── hero.jpg
+    │   └── logo
+    │       ├── CSS.png
+    │       ├── HTML.jpg
+    │       └── tailwind.png
+    ├── src
+    │   ├── index.html
+    │   ├── input.css
+    │   ├── output.css
+    │   └── style.css
+    ├── README.txt
+    ├── package-lock.json
+    └── package.json
 
-├── assets
-│   ├── Icons
-│   ├── images
-│   │   └── hero.jpg
-│   └── logo
-│       ├── CSS.png
-│       ├── HTML.jpg
-│       └── tailwind.png
-├── src
-│   ├── index.html
-│   ├── input.css
-│   ├── output.css
-│   └── style.css
-├── README.txt
-├── package-lock.json
-└── package.json
