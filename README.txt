@@ -1,25 +1,28 @@
-Personal Portfolio Website
+# Personal Portfolio Website
 
 Student Name: Muhammad Awais Asif
 Student Id: 510212
 Course: Website Development
 Instructor: Umer Sajid
 
-Project Summary
+# Project Summary
 
 This project is a portfolio website to show case about my details (personal, skills, Eductaion)
 
-Design Reference files
+# Design Reference files
 
-Figma Design
+Figma Design https://www.figma.com/design/3Psg36Z27z7XG2rd239r19/Portfolio-Website-Landing-Page-design?node-id=0-1&t=EAa3Z6CLqgnTaEv3-1
+
 Project Documentation https://docs.google.com/document/d/1cwb34LYXi_hUVFu3tKupD-3vp9TTzqQcrBTDpOwiaHQ/edit?usp=sharing
 
-Technologies used
+# Technologies used
+
 HTML
 CSS
+js
 Tailwind CSS 
 
-Color Palette and typography
+# Color Palette and typography
 
   /* Color Palette */
   --color-primary: #111827;
@@ -27,17 +30,23 @@ Color Palette and typography
   --color-accent: #fff;
   /* Typography Scale */
   --font-main: "Inter", sans-serif;
-  --h1-size: 2.5rem;
-  --h2-size: 2rem;
-  --h3-size: 1.5rem;
-  --p-size: 1rem;
+
 
   Project structure
 
-  Assets assets/Icons assets/images assets/logo
-  node module
-  src 
-  src src/index.html src/input.css src/output.css src/style.css
-  package-kock.Json
-  package.Json
-  Readme.txt
+├── assets
+│   ├── Icons
+│   ├── images
+│   │   └── hero.jpg
+│   └── logo
+│       ├── CSS.png
+│       ├── HTML.jpg
+│       └── tailwind.png
+├── src
+│   ├── index.html
+│   ├── input.css
+│   ├── output.css
+│   └── style.css
+├── README.txt
+├── package-lock.json
+└── package.json

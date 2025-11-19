@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Muhammad Awais Asif Langah | Portfolio</title>
   </head>
   <body>
     <header class="flex justify-between p-4">
@@ -71,14 +79,117 @@
           real-world business goals. Let’s build something impactful together.
         </p>
       </section>
-      <section id="skill" class="p-3 ">
-        <h2 class="font-bold text-3xl mb-3">
-          Skills
-        </h2>
-        <div class="card">
-          <img class="size-32.5" src="/assets/logo/HTML.jpg" alt="HTML Logo" />
-          <p>HTML</p>
+      <section id="skill" class="p-3">
+        <h2 class="font-bold text-3xl mb-3">Skills</h2>
+        <div class="flex justify-between">
+          <div class="card m-7">
+            <img
+              class="card-logo"
+              src="/assets/logo/HTML.jpg"
+              alt="HTML Logo"
+            />
+            <p>HTML</p>
+          </div>
+          <div class="card m-7">
+            <img class="card-logo" src="/assets/logo/CSS.png" alt="HTML Logo" />
+            <p>CSS</p>
+          </div>
+          <div class="card m-7">
+            <img
+              class="card-logo"
+              src="/assets/logo/tailwind.png"
+              alt="HTML Logo"
+            />
+            <p>Tailwind</p>
+          </div>
         </div>
+      </section>
+      <section id="education" class="p-20">
+        <h2 class="font-bold text-3xl mb-3">Education</h2>
+        <ul class="list-disc indent-3 p-3.5 text-lg">
+          <li>
+            <span class="font-bold">Matric</span>, Ravian Science High School
+            Kamalia, 2018 - 2020
+          </li>
+          <li>
+            <span class="font-bold">FSC Pre-Medical</span>, Government Post
+            Graduate College Sahiwal, 2021 - 2023
+          </li>
+          <li>
+            <span class="font-bold"
+              >Bachelor of Science in Computer Science</span
+            >, Arid Agriculture University Rawalpindi, 2023 - Continue
+          </li>
+          <li>
+            <span class="font-bold">Certified Web Developer</span>, Techstep
+            Sahiwal, 2023
+          </li>
+        </ul>
+      </section>
+      <section id="contact" class="p-20">
+        <h2 class="font-bold text-3xl mb-3">Contact</h2>
+        <form action="" class="max-w-sm mx-auto">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            class="block mb-3 p-2 border rounded-xl w-full"
+            placeholder="Enter your Name"
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="block mb-3 p-2 border rounded-xl w-full"
+            placeholder="Enter your Email"
+          />
+
+          <label
+            for="message"
+            class="block mb-2.5 text-sm font-medium rounded-xl text-heading"
+            >Your message</label
+          >
+          <textarea
+            id="message"
+            rows="4"
+            class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full p-3.5 shadow-xs placeholder:text-body"
+            placeholder="Write your thoughts here..."
+          ></textarea>
+          <button
+            type="submit"
+            class="border rounded-lg px-5 mt-3 bg-black text-white"
+          >
+            Submit
+          </button>
+        </form>
+      </section>
+      <section id="footer">
+        <footer
+          class="text-center p-4 text-white flex justify-between items-center"
+        >
+          <section class="region">
+            <p>Pakistan</p>
+          </section>
+          <section class="copyright">
+            <p>&copy; 2025 Muhammad Awais Asif Langah. All rights reserved.</p>
+          </section>
+          <section class="social-icon">
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </section>
+        </footer>
       </section>
     </main>
   </body>

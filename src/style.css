@@ -90,11 +90,13 @@ section p{
   height: 20vw;
   width: 20vw;
   border: 1px solid black;
+  padding: 30px;
 }
-.card img{
-  height: 70%;
+.card-logo{
+  height: 100%;
   width: 100%;
-  object-fit: cover;
+  /* padding: 10px; */
+  object-fit: fit;
 }
 .card p{
   text-align: center;
@@ -104,4 +106,20 @@ section p{
 .card:hover{
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;
+}
+#education{
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+  height: 50vh;
+}
+#contact{
+  background-color: var(--color-secondary);
+  color: black;
+  height: 100vh;
+}
+#footer{
+  background-color: var(--color-primary);
+  color: var(--color-accent);
+  text-align: center;
+  /* padding: 1rem 0; */
 }
